@@ -14,7 +14,8 @@ h1 {
   letter-spacing: 1px;
   padding: 20px 0;
   text-shadow: 3px 3px #E0E6F8;
-  font-size: 40px;
+  font-size: 50px;
+  font-weight: 800;
 }
 
 h2 {
@@ -107,6 +108,7 @@ p:hover::after {
 
   h1 {
     font-size: 60px;
+    font-weight: 900;
   }
 
   h1::before,

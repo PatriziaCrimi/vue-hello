@@ -4,7 +4,9 @@ BONUS: Aggiungere un’immagine presa anch’essa da un data
 */
 
 var app = new Vue({
-
-  el: '#root';
-
+  el: '#root',
+  data: {
+    main_title: 'vue js',
+    subtitle: 'JavaScript Framework',
+  }
 });
