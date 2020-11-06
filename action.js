@@ -8,5 +8,7 @@ var app = new Vue({
   data: {
     main_title: 'vue js',
     subtitle: 'JavaScript Framework',
+    url_meme_got: 'img/meme_got.png',
+    url_meme_react: 'img/meme_react.jpg',
   }
 });
