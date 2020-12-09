@@ -20,7 +20,7 @@
             <h2>{{subtitle}}</h2>
           </div>
           <div class="row">
-            <div class="img-container" @click="hideImg">
+            <div class="img-container" @click="toggleImg">
               <img v-bind:src="url_meme_got" :class="display_img_got" alt="vue meme GOT">
               <img :src="url_meme_react" :class="display_img_react" alt="vue meme React">
             </div>

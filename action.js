@@ -15,7 +15,7 @@ var app = new Vue({
     display_img_react: 'hidden',
   },
   methods: {
-    hideImg: function() {
+    toggleImg: function() {
       if (this.display_img_got === 'show') {
         this.display_img_got = 'hidden';
         this.display_img_react = 'show';
